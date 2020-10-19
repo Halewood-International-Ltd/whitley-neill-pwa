@@ -1,0 +1,14 @@
+@import "~styles/helpers/_module";
+
+:host {
+
+
+	.formgroup__actions {
+		max-width: 366px;
+		.formgroup__button {
+			background-color: #1e2d7d !important;
+			max-width: 366px;
+			width:100%;
+		}
+	}
+}

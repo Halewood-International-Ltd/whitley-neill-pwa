@@ -1,0 +1,7 @@
+@import '~styles/helpers/_module';
+
+:host {
+	&.storybook-image-content-cell-background {
+		cursor: default;
+	}
+}

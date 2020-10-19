@@ -1,0 +1,49 @@
+@import "~styles/helpers/_module";
+@import "~app/shared/formgroup-input-container/formgroup-input-container-mixins";
+@import "../account/account-styles";
+
+:host.hide {
+	display: none;
+}
+
+:host {
+	.formgroup-inputs {
+		@include account-view;
+
+		&__consent, &__registration {
+			display: block;
+			margin: auto;
+			box-sizing: border-box;
+			border: solid 1px #efefef;
+  			background-color: #ffffff;
+		}
+		&__consent {
+			margin-top: $small-spacer-mobile;
+		}
+	}
+}
+.login-container {
+	background-color: #FFFFFF;
+}
+.login {
+	padding: $medium-spacer-tablet 0;
+	.login-content {
+		.buttons {
+			.login-button {
+				background-color: #1e2d7d;
+			}
+			.register-button {
+				color: #1e2d7d;
+				border: solid 2px #1e2d7d;
+			}
+		}
+	}
+}
+
+.register-content {
+	.register-buttons {
+		.register-button {
+			background-color: #1e2d7d;
+		}
+	}
+}

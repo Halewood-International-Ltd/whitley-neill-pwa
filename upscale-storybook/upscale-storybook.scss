@@ -1,0 +1,83 @@
+@import '~styles/helpers/_module';
+
+:host{
+
+	.container-content {
+		overflow: visible;
+		.sub-title {
+			font-size: 30px;
+			overflow: hidden;
+			line-height: 34px;
+			margin: 26px 0;
+			&-alignment {
+				&_center {
+					line-height: 34px;
+					span {
+						padding:0 30px;
+						position: relative;
+						font-family: 'Quicksand', sans-serif;
+						font-weight: 600;
+						&:before,
+						&:after {
+							content: '';
+							display: block;
+							width: 1000px;
+							position: absolute;
+							top: calc(.5em + 3px);
+							border-top: 1px solid #dddddd;
+							box-sizing: border-box;
+						}
+						&:before {
+							right: 100%;
+						}
+						&:after {
+							left: 100%;
+						}
+						@media screen and (max-width: 1000px) {
+							&:before, 
+							&:after {
+								display:none;
+							}
+						}
+					}
+				}
+			}
+		}
+		.story-books {
+			margin-top: 0;
+		}
+	}
+
+	.storyBookProgressBar{
+		display: none;
+	}
+}
+
+
+
+
+.upscale-small,
+.upscale-extra-small {
+	:host {
+		.storybook-background {
+			padding: 12px 15px 12px 15px;
+		}
+	}
+}
+
+.upscale-medium {
+	:host {
+		.storybook-background {
+			padding: 24px 0;
+		}
+	}
+}
+
+.upscale-large,
+.upscale-extra-large {
+	:host {
+		.storybook-background {
+			padding: 40px 0;
+		}
+	}
+}

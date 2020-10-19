@@ -1,0 +1,13 @@
+@import '~styles/helpers/_module';
+
+
+:host {
+	&.text-button {
+		background-color: #1e2d7d;
+		border: solid #1e2d7d 1px;
+	}
+
+	&.icon-button {
+		background-color: #1e2d7d;
+	}
+}

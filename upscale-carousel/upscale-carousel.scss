@@ -1,0 +1,51 @@
+@import "~styles/helpers/_module";
+
+:host ngx-slick::ng-deep {
+	max-height:360px;
+
+}
+
+.carousel-container {
+	max-height:360px;
+	max-width: 1220px;
+	width: 100%;
+	margin: 30px auto;
+	.carousel {
+		max-height:360px;
+	}
+	.slide {
+		.upscale-generic-image {
+			.img {
+				max-height: 360px !important;
+			}
+		}
+	}
+
+	.carousel-content {
+		max-height:360px;
+	}
+
+	.content-container {
+		max-height:360px;
+	}
+}
+
+.upscale-medium, .upscale-large, .upscale-extra-large {
+	:host {
+		.content-container {
+			max-height:360px;
+		}
+		.image-container {
+			max-height:360px;
+			.img {
+				max-height:360px;
+			}
+		}
+	}
+}
+
+
+
+.img[_ngcontent-serverapp-c134] {
+	max-height: 360px !important;
+}

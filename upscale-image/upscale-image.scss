@@ -1,0 +1,33 @@
+@import '~styles/helpers/_module';
+
+$button-height: 50px;
+$small-spacing: 12px;
+$medium-spacing: 24px;
+$large-spacing: 48px;
+
+.image-content {
+	cursor: pointer;
+}
+
+.image-container {
+	.overlay-content {
+		background-color: transparent !important;
+
+		.link-button {
+			background-color: #fff;
+			cursor: pointer !important;
+			&:hover {
+				opacity: 1 !important;
+				background-color: #333333 !important;
+				color:#fff !important;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.image-content {
+		width: calc(100% + 40px);
+		margin-left: -20px;
+	}
+}

@@ -1,0 +1,31 @@
+@import "~styles/helpers/_module";
+
+.breadcrumbs {
+	height: 50px;
+    border-left: 4px solid #00badb;
+	max-width: 1136px;
+	padding: 0 20px;
+}
+
+
+.category-details {
+	margin: 30px 0;
+	h1 {
+		font-size: 28px;
+		font-weight: 600;
+		margin-bottom:20px;
+	}
+}
+
+
+.upscale-small, .upscale-extra-small {
+	:host {
+		.container-content{
+			.category-details {
+				h1 {
+					text-align: center;
+				}
+			}
+		}
+	}
+}

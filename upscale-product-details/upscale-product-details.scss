@@ -1,0 +1,80 @@
+@import '~styles/helpers/_module';
+
+$pdp-background: #FFFFFF;
+$fixed-button-bar-height: 100px;
+
+:host {
+	max-width: 1220px;
+	padding: 0 20px;
+	margin: 0 auto;
+	.row{
+		display:block;
+		.column {
+			float:left;
+			&:nth-of-type(1) {
+				width: 700px;
+			}
+			&:nth-of-type(2) {
+				width: calc(100% - 700px);
+			}
+		}
+		.full-width-column {
+			float: left;
+			width:100%;
+			border:1px solid #f5f5f5;
+			margin-top: 10px;
+
+			::ng-deep upscale-custom-attribute-list {
+				border: none;
+				.attribute-details__body {
+					padding: 14px 20px 10px 20px;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+
+
+.collection-hover{
+	.title{
+		font-size: 30px;
+	}
+}
+
+
+.price {
+	padding-bottom: 18px;
+	.original-price {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 20px;
+		text-decoration: line-through;
+		margin-top:0;
+		padding-top: 2px;
+	}
+	.selling-price,
+	.regular-price,
+	.original-price {
+		display:inline-block;
+	}
+	.selling-price {
+		padding-right: 14px;
+	}
+	.regular-price {
+		color: #00badb;
+	}
+	.selling-price,
+	.regular-price {
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 20px;
+		white-space: nowrap;
+	}
+}
+
+
+.title {
+	font-weight: 500;
+	padding-bottom: 20px;
+}

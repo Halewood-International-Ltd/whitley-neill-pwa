@@ -1,0 +1,70 @@
+@import '~styles/helpers/_module';
+
+:host {
+	cursor: pointer;
+	position: relative;
+	padding-bottom: 18px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+
+	.colors,
+	.name,
+	.price {
+        width: calc(100% - 24px);
+		.original-price {
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 20px;
+			text-decoration: line-through;
+			margin-top:0;
+			padding-top: 2px;
+		}
+		.selling-price {
+			padding-right: 14px;
+		}
+		.regular-price {
+			color: #00badb;
+		}
+		.selling-price,
+		.regular-price {
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 20px;
+			white-space: nowrap;
+		}
+	}
+
+	.name {
+		line-height: 1.2 !important;
+		font-size: 16px !important;
+		min-height:40px !important;
+		overflow: hidden;
+		font-weight: 400;
+		margin: 16px 0 6px 0;
+		letter-spacing: -0.8px;
+	}
+
+	.price {
+		margin-bottom: 6px;
+	}
+	.save-banner {
+		position: absolute;
+		top: 14px;
+		left:-1px;
+		background-color: rgb(208, 19, 69);
+		color: #fff;
+		padding: 5px 10px;
+		line-height: 1;
+		font-size: 14px;
+		margin:0;
+		transition: 0.4s;
+		-webkit-transition: 0.4s;
+	}
+
+	&:hover {
+		.save-banner {
+			padding-left: 30px;
+		}
+	}
+
+}

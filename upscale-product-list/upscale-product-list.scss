@@ -1,0 +1,22 @@
+:host {
+	margin-bottom: 40px;
+	background-color: transparent !important;
+}
+
+
+
+
+.product {
+	padding:0 !important;
+	&-tile {
+        cursor: pointer;
+	}
+}
+
+.upscale-large-width, .upscale-extra-large-width {
+	:host {
+		.product {
+			border: 1px solid #f5f5f5;
+		}
+	}
+}

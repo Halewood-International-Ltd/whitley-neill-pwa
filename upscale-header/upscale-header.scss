@@ -1,7 +1,9 @@
-.header {
+:host {
     position: absolute;
     top:20px;
-    img {
-        height:84px;
+    .header {
+        img {
+            height:84px;
+        }
     }
 }
