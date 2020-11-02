@@ -1,3 +1,67 @@
 body {
     position: relative;
+    font-family: 'Oswald', sans-serif !important;
+    background-color: #fff;
 }
+
+.container-content {
+    max-width: 1160px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.router-outlet {
+    //position: relative;
+    //top:120px;
+}
+
+
+
+
+//Homepage Hero Image 
+[data-component-id="79b137a6-0906-48a9-8b64-87e722bb5c90"] {
+    .container-content {
+        position: relative;
+        z-index:9;
+        top:200px;
+        width:70%;
+        text-align: center !important;
+        h1 {
+            color: #cab577 !important;
+            letter-spacing: 4px;
+            text-shadow: 1px 1px 2px #000;
+            font-size: 90px !important; 
+            line-height: 1 !important;
+            text-transform: uppercase;
+        }
+        h2 {
+            font-size: 20px;
+            text-shadow: 1px 1px 2px #000;
+            color: #fff !important;
+            letter-spacing: 4px;
+        }
+        h1,
+        h2 {
+            overflow: visible;
+        }
+    }
+    .image-content {
+        position:relative;
+        top:-274px;
+    }
+}
+
+
+
+
+//PDP - Blood Orange Gin - Change background color to relevant colour
+[data-component-id="b33cb132-00f4-41f2-9c6a-b2d17e33f680"] {
+	.contentWrapper {
+		.product-detail-content {
+			.full-width-column {
+				background-image: radial-gradient(#F27A2B 4%, #b34903 98%);
+			}
+		}
+	}
+}
+

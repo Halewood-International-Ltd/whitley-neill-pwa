@@ -1,10 +1,7 @@
 .container {
-	height: 0;
 	position: relative;
-	max-width: 1180px;
-	width: calc(100% - 40px);
+
 	margin: 0 auto;
-	padding: 0 20px;
 	&.none {
 		height: auto;
 		.content {

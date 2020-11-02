@@ -1,9 +1,32 @@
 :host {
-    position: absolute;
-    top:20px;
+    background-color: transparent;
+    box-shadow: none;
+    width: calc(100% - 20px);
+    left: 10px;
+    max-width: 1600px;
+    height:120px;
+    padding:20px 0;
+    position: relative;
+    margin: 0;
     .header {
-        img {
-            height:84px;
+        width: calc(100% - 40px);
+        height:100%;
+        max-width: none !important;
+        max-height: none;
+        position: absolute;
+        top:0;
+        .header__top {
+            height:100%;
+            .header__top-left {
+                height:100%;
+                .header__logo-image-wrapper {
+                    img {
+                        width:100%;
+                        max-width: 176px;
+                        max-height: none;
+                    }
+                }
+            }
         }
     }
 }

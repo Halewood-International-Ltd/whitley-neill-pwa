@@ -1,4 +1,29 @@
 {
+  "_from": "git+https://github.com/Halewood-International-Ltd/whitley-neill-pwa.git",
+  "_id": "upscale-style-cookbooks@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/upscale-style-cookbooks",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "upscale-style-cookbooks@git+https://github.com/Halewood-International-Ltd/whitley-neill-pwa.git",
     "name": "upscale-style-cookbooks",
-    "version": "1.0.0"
+    "escapedName": "upscale-style-cookbooks",
+    "rawSpec": "git+https://github.com/Halewood-International-Ltd/whitley-neill-pwa.git",
+    "saveSpec": "git+https://github.com/Halewood-International-Ltd/whitley-neill-pwa.git",
+    "fetchSpec": "https://github.com/Halewood-International-Ltd/whitley-neill-pwa.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/Halewood-International-Ltd/whitley-neill-pwa.git#849ffa76f0762c838b73b47363e69de47672a8da",
+  "_spec": "upscale-style-cookbooks@git+https://github.com/Halewood-International-Ltd/whitley-neill-pwa.git",
+  "_where": "C:\\Users\\jacksong\\Downloads\\whitley-neill-v1\\caas2-webapp",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "whitleyneill.com PWA",
+  "name": "upscale-style-cookbooks",
+  "version": "1.0.0"
 }
